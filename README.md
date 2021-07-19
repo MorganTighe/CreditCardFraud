@@ -13,13 +13,13 @@ We used two datasets because real credit card fraud is extremely rare. According
 >The datasets contains transactions made by credit cards in September 2013 by european cardholders.
 >This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) >account for 0.172% of all transactions.
 >
->It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features >and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA >are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction >Amount, this feature can be used for example-dependant cost-senstive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+>It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features >and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA >are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction >Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
 # Synthetic Data
 
 >There is a lack of public available datasets on financial services and specially in the emerging mobile money transactions domain. Financial datasets are important to many >researchers and in particular to us performing research in the domain of fraud detection. Part of the problem is the intrinsically private nature of financial transactions, that >leads to no publicly available datasets.
 >
->We present a synthetic dataset generated using the simulator called PaySim as an approach to such a problem. PaySim uses aggregated data from the private dataset to generate a >synthetic dataset that resembles the normal operation of transactions and injects malicious behaviour to later evaluate the performance of fraud detection methods.
+>We present a synthetic dataset generated using the simulator called PaySim as an approach to such a problem. PaySim uses aggregated data from the private dataset to generate a >synthetic dataset that resembles the normal operation of transactions and injects malicious behavior to later evaluate the performance of fraud detection methods.
 
 # PaySim
 
@@ -32,3 +32,15 @@ We used two datasets because real credit card fraud is extremely rare. According
 https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 https://www.kaggle.com/ntnu-testimon/paysim1
+
+# Images
+
+![Confusion Matrix KNN Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_knn_GOOD_real.PNG)
+
+![Confusion Matrix LOG Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_real.PNG)
+
+![Confusion Matrix LOG Synthetic Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_synthetic.PNG)
+
+![ML Scores Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/ml_scores_real.csv)
+
+![ML Scores Synthetic Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/ml_scores_synthetic.csv)
