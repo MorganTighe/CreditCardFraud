@@ -35,12 +35,12 @@ https://www.kaggle.com/ntnu-testimon/paysim1
 
 # Images
 
-![Confusion Matrix KNN Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_knn_GOOD_real.PNG?raw=true)
+![Confusion Matrix KNN Real Data](https://github.com/MorganTighe/CreditCardFraud/blob/main/Resources/confusion_matrix_knn_GOOD_real.PNG?raw=true)
 
-![Confusion Matrix LOG Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_real.PNG?raw=true)
+![Confusion Matrix LOG Real Data](https://github.com/MorganTighe/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_real.PNG?raw=true)
 
-![Confusion Matrix LOG Synthetic Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_synthetic.PNG?raw=true)
+![Confusion Matrix LOG Synthetic Data](https://github.com/MorganTighe/CreditCardFraud/blob/main/Resources/confusion_matrix_log_GOOD_synthetic.PNG?raw=true)
 
-![ML Scores Real Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/ml_scores_real.csv?raw=true)
+![ML Scores Real Data](https://github.com/MorganTighe/CreditCardFraud/blob/main/Resources/ml_scores_real.csv?raw=true)
 
-![ML Scores Synthetic Data](https://github.com/drupps/CreditCardFraud/blob/main/Resources/ml_scores_synthetic.csv?raw=true)
+![ML Scores Synthetic Data](https://github.com/MorganTighe/CreditCardFraud/blob/main/Resources/ml_scores_synthetic.csv?raw=true)
